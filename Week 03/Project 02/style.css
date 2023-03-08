@@ -1,0 +1,91 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Nav Section */
+nav {
+    height: 15vh;
+    display: flex;
+    background-color: #000000;
+    color: #FAFAFA;
+    font-weight: 600;
+    align-items: center;
+    column-gap: 20px;
+    padding: 0 5%;
+}
+
+.list :first-child::after {
+    content: " v";
+    font-size: 13px;
+}
+
+.line {
+    height: 10vh;
+    border-left: #FAFAFA 1px solid;
+    margin-right: 50px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    column-gap: 60px;
+}
+
+.logo {
+    width: 60%;
+}
+
+/* button div */
+nav :nth-child(4) {
+    position: absolute;
+    margin-right: 5%;
+    right: 0;
+}
+
+.button-small {
+    background-color: #BA0CC5;
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Main Section */
+.hero {
+    background-image: url("./assets/bg.png");
+    height: 720px;
+    color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading {
+    color: #FFFFFF;
+    text-align: center;
+    margin: -150px 20% 20px 20%;
+    font-size: 75px;
+}
+
+.hero-description {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button-large {
+    background-color: #BA0CC5;
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+}
