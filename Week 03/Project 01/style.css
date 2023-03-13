@@ -6,6 +6,10 @@
     font-family: sans-serif;
 }
 
+body {
+    max-width: 1440px;
+}
+
 /* Nav Section */
 nav {
     margin: 50px 10% 0 10%;
