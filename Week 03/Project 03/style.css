@@ -6,6 +6,10 @@
     font-family: 'Lucida Sans Unicode';
 }
 
+body {
+    max-width: 1440px;
+}
+
 /* Nav Section */
 nav {
     height: 15vh;
